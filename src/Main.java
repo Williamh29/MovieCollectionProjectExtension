@@ -4,6 +4,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         ArrayList<SimpleMovie> movies = MovieDatabaseBuilder.getMovieDB("src/movie_data");
+        //        for (SimpleMovie movie : movies) {
+//            System.out.println(movie);
+//        }
+//        System.out.println("Number of movies: " + movies.size());
 
         Scanner scan = new Scanner(System.in);
         ArrayList<Integer> baconList = new ArrayList<>();
@@ -35,7 +39,7 @@ public class Main {
                     }
                 }
             }
-                System.out.println(baconList);
+                System.out.println(actor);
             System.out.println(actorList);
             System.out.println(baconList);
             System.out.println(actorList);
